@@ -338,14 +338,14 @@ function App() {
 
   return (
     <div className="app">
-      <header className="">
+      <header className="bg-primary text-white py-3 mb-4 shadow">
         <Container>
           <h1 className="">User Management Dashboard</h1>
           <p className="">Manage and view user information</p>
         </Container>
       </header>
 
-      <Container className="">
+      <Container className="py-3 mb-4 mt-5">
         <SearchBar />
 
         {/* {loading && <Spinner ... />} */}
@@ -355,7 +355,7 @@ function App() {
         <UserModal />
       </Container>
 
-      <footer className="py-3, mb-4, mt-5">
+      <footer className="bg-light py-4 mt-5">
         <Container>
           <p className="text-center text-muted mb-0">
             &copy; 2024 User Management Dashboard
